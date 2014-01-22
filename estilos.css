@@ -3,4 +3,108 @@ body
 	font-family: 'Margarine', cursive;
 	font-size: 16px;
 	background-color: #E2E2E2;
+	margin: 0
+}
+div
+{
+	color: #DADADA;
+}
+header
+{
+	margin: 0;
+	background-color: #323232;
+}
+header img
+{
+	width: 120px;
+}
+header h1
+{
+	font-size: 20px;
+	font-weight: normal;
+	margin: 1em 0 1em 0.5em;
+	display: block;
+}
+header h1, header div, header figure
+{
+	display: inline-block;
+	vertical-align: top;
+}
+nav
+{
+	margin: 0;
+	background-color: #CBCBCB;
+}
+nav ul
+{
+	background-color: #CBCBCB;
+	margin: 0 0 0 0.5em;
+	padding: 0.5em 0 0.5em 0;
+
+}
+nav ul li
+{
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	vertical-align: top;
+	margin: 0 0 0 1em;	
+}
+nav ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+footer
+{
+	text-align: center;
+	padding: 1em 0;
+	background-color: #323232;
+	color: #DADADA;
+}
+footer p
+{
+	margin: 0;
+}
+section
+{
+	background-color: black;
+	color: white;
+	margin: 0;
+}
+section article h2
+{
+	text-align: center;
+	margin: 0;
+}
+section article p
+{
+	text-align: center;
+	margin: 0;
+}
+nav ul #suscribete
+{
+	background-color: #B44D1D;
+	float: right;
+	border-radius: 5px;
+	padding: 2px;
+}
+section article #video
+{
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+}
+#video iframe,
+#video object,
+#video embed,
+#video video
+{
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 }
